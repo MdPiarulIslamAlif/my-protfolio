@@ -1,4 +1,9 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
 
+}
 body{
      font-family: 'Open Sans', sans-serif;
 
@@ -9,6 +14,7 @@ body{
 .primary-btn{
      width: 150px;
      height: 64px;
+     border: 0;
      border-radius: 5px;
      background: #FD6E0A;
      color:#FFF;
@@ -18,34 +24,34 @@ body{
      line-height: normal;
 
 } 
+.primary-discpription{
+     margin-bottom: 10px;
+     color:  #757575;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;     
+}
 
 /* share style end here */
 
 /* header section style start form here */
 header{
-     width: 100%;
-     background-image: url('images/header_bg.png');
+     
      background-color:#FFF8F3; 
+     background-image: url('images/header_bg.png'),url('images/developer.png');
      background-repeat: no-repeat;
-     background-position: bottom;
+     background-position: bottom right, bottom left;  
 }
-/* .portfolio-img{
-     width: 1600px;
-     height: 837px;
-} */
-
 
 nav{
+     padding-top: 50px;
      display: flex;
      justify-content: space-between;
      align-items: center;
      margin: 0 200px;
 }
-primary-title{
-     color: #181818;
-     font-size: 45px;
-     font-weight: 800;
-}
+
 .title span{
      color:  #FD6E0A;
 }
@@ -63,4 +69,48 @@ nav ul li a{
      font-weight: 400;
     
 } 
+/* banner style */
+.anner-container{
+    
+}
+.banner-container{
+     padding: 30px 30px 0px 200px;
+     display: flex;
+     align-items: center;
+     gap: 250px;
+}
+
+.Portfolio-img{
+     width: 584px;
+     height: 676px;  
+}
+.title{
+     margin: 0;
+     color: #474747;
+     font-size: 45px;
+     font-weight: 800;
+     line-height: normal;
+}
+.name-titile{
+     margin: 0;
+     color: #181818;
+     font-size: 85px;
+     font-weight: 700;
+}
+
+.primary-btn{
+     margin-left: 20px;
+}
+.Primary-title{
+     text-align: center;
+     padding-bottom: 40px;
+}
+article{
+     border-radius: 10px;
+     background: #FFF8F3;
+     width: 1140px;
+     margin: 0 auto;
+     margin-top: 100px;
+     padding: 50px 150px;
+}
 /* header section style end form here */
