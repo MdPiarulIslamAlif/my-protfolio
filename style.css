@@ -37,7 +37,7 @@ body{
 
 /* header section style start form here */
 header{
-     
+     height: 820px;
      background-color:#FFF8F3; 
      background-image: url('images/header_bg.png'),url('images/developer.png');
      background-repeat: no-repeat;
@@ -105,16 +105,73 @@ nav ul li a{
      text-align: center;
      padding-bottom: 40px;
 }
-article{
+/* header section style end form here */
+/* about section start form here */
+section .about{
+     margin-top: 100px;
+     margin-bottom: 30px;
+     padding: 50px 150px;
      border-radius: 10px;
      background: #FFF8F3;
+}
+section{
      width: 1140px;
      margin: 0 auto;
-     margin-top: 100px;
-     padding: 50px 150px;
+     
+     
 }
 .about-container{
-     display: ;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     
+}
+.about-container .primary-discpription{
+     text-align: center ;
+}
+.info{
+     color: #474747;
+     text-align: center;
+     font-size: 25px;
+     font-weight: 600;
+     line-height: 30px;
+}
+.what-i-do {
+     margin: 100px 0;
+
+}
+.what-i-do .primary-discpription{
+     margin: 0 150px;
+     text-align: center;
+}
+/* about section end form here */
+/* skill section start form here */
+.skill-container{
+     display: flex;
+     justify-content: space-between;
+     /* gap: 20px; */
+     
+
+     
+}
+.skill-item{
+     width: 267px;
+     height: 377px;   
+     margin-bottom: 100px;
+     border-radius: 5px;
+     background: #FFF;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);     
+}
+.icon{
+     width: 50px;
+     height: 50px;
+     margin: 30px 0px 30px 30px;    
+  
 }
 
-/* header section style end form here */
+.skill-container .skill-item .primary-title, .primary-discpription{
+     margin-left: 30px;
+     margin-bottom: 30px;
+}
+/* skill section end form here */
