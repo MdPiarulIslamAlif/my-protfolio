@@ -12,7 +12,7 @@ body{
 /* share style  start here*/
 
 .primary-btn{
-     width: 150px;
+     width: 170px;
      height: 64px;
      border: 0;
      border-radius: 5px;
@@ -22,6 +22,7 @@ body{
      font-style: normal;
      font-weight: 700;
      line-height: normal;
+     cursor: pointer;
 
 } 
 .primary-discpription{
@@ -33,6 +34,13 @@ body{
      line-height: 30px;     
 }
 
+.primary-btn:hover{
+     background-color: transparent;
+     transition: 0.7s;
+     border:1px solid #FD6E0A;
+     border-radius: 5px;
+     color: #474747;
+}
 /* share style end here */
 
 /* header section style start form here */
@@ -221,15 +229,18 @@ article .primary-title{
 
 }
 .dbuton .primary-btn{
+    width: 170px;
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 40%;
-    
+    margin-left: 40%;   
+}
+.dbuton .primary-btn .fa-download{
+     margin-right: 5px;
 }
 /* my resume end form here */
 /* footer container  start form here*/
 footer{
-     background-color: #FFF8F3;;
+     background-color: #FFF8F3;
 }
 .footer-content{
      margin: 0px 200px;
@@ -249,17 +260,36 @@ footer{
      line-height: normal;     
 
 }
+.icon{
+     display: flex;
+     gap: 30px;
+}
+.social-icon{
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
+}
+
 textarea, input[type="name"], input[type="email"]{
      display: block;
      display: flex;
      width: 562px;     
      padding: 20px;
      margin: 20px;  
+     border: none;
+     outline: none;
+}
+input:focus{
+     border-bottom: 1px solid #FD6E0A;
+}
+input[type="name"]:focus{
+     border-bottom: 1px solid #32fadf;
+}
+input[type="name"]{
+  background-color:  #FFF8F3;
+     border-bottom: 1px solid #FD6E0A;
 }
 form .primary-btn{
      margin-left: 20px;
 }
-
-
-
 /* footer container  end form here*/
