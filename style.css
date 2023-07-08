@@ -70,9 +70,7 @@ nav ul li a{
     
 } 
 /* banner style */
-.anner-container{
-    
-}
+
 .banner-container{
      padding: 30px 30px 0px 200px;
      display: flex;
@@ -175,3 +173,93 @@ section{
      margin-bottom: 30px;
 }
 /* skill section end form here */
+
+/* my resume start form here */
+
+
+.container{
+     display: flex;
+     justify-content: space-between;
+     gap: 50px;
+     
+}
+.container .Education .main-title{
+     color: #474747;
+     font-size: 30px;
+     font-weight: 700;
+     line-height: normal;  
+     margin-bottom: 30px;  
+     
+}
+
+.edu{
+     color:  #474747;
+     font-size: 25px;
+     font-weight: 700;
+     line-height: normal;
+     margin-top: 30px;
+     margin-bottom: 10px;
+      
+}
+.sub-header{
+     color:#757575;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: normal;
+     margin-bottom: 10px;
+}
+.discpription{
+     color:  #757575;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px; 
+}
+article .primary-title{
+     text-align: center;
+     margin-bottom: 100px;
+
+}
+.dbuton .primary-btn{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+    
+}
+/* my resume end form here */
+/* footer container  start form here*/
+footer{
+     background-color: #FFF8F3;;
+}
+.footer-content{
+     margin: 0px 200px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.let-contact{
+     margin-top: 100px;
+     margin-bottom: 30px;
+}
+.let-title{
+     color: #181818;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 700;
+     line-height: normal;     
+
+}
+textarea, input[type="name"], input[type="email"]{
+     display: block;
+     display: flex;
+     width: 562px;     
+     padding: 20px;
+     margin: 20px;  
+}
+form .primary-btn{
+     margin-left: 20px;
+}
+
+
+
+/* footer container  end form here*/
