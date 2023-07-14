@@ -157,9 +157,7 @@ section{
      display: flex;
      justify-content: space-between;
      gap: 20px;
-     
-
-     
+  
 }
 .skill-item{
      width: 100%;
@@ -305,15 +303,64 @@ form .primary-btn{
      .resumi-container{
           flex-direction: column;
           justify-content: flex-start;
+          width: 100%;
      }
+     
      .Education{
-          width: 30%;
+          width:100%;
           text-align: center;
           padding: 10px;
           margin-left: 10px;
      }
+     .about .primary-discpription{
+          width: 100%;
+     }
+     .skill-container .skill-item .primary-title, .primary-discpription{
+          margin: 0;
+     }
+     article .primary-title{
+          text-align: start;
+          margin: 20px;
+          padding: 10px;
+     }
+     .about .primary-discpription{
+          width: 100%;
+              
+     }
+     .about-container .item{
+          width: 100%;
+     }
+     .about-container{
+          flex-direction: column;
+     }
+
+     section{
+          width: 100%;
+     }
+     section .about{
+          padding: 10px;
+     }
+     article .about{
+          width: 100%;
+          padding: 20px;
+     }
+     .what-i-do .primary-discpription{
+          margin: 0;
+     }
+     
+     .about .primary-title{
+          
+          
+     }
      .dbuton .primary-btn{
-          margin-left: 8%;
+          margin-left: 30%;
+     }
+     .footer-content{
+          flex-direction: column;
+          margin: 0 15px;
+     }
+     textarea, input[type="name"], input[type="email"]{
+          width: 335px;
      }
     
 }
