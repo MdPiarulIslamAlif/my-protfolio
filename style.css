@@ -156,14 +156,13 @@ section{
 .skill-container{
      display: flex;
      justify-content: space-between;
-     /* gap: 20px; */
+     gap: 20px;
      
 
      
 }
 .skill-item{
-     width: 267px;
-     height: 377px;   
+     width: 100%;
      margin-bottom: 100px;
      border-radius: 5px;
      background: #FFF;
@@ -185,7 +184,7 @@ section{
 /* my resume start form here */
 
 
-.container{
+.resumi-container{
      display: flex;
      justify-content: space-between;
      gap: 50px;
@@ -293,3 +292,28 @@ form .primary-btn{
      margin-left: 20px;
 }
 /* footer container  end form here*/
+
+
+/* responsive area start form here */
+.hide{
+     display: none;
+}
+@media screen and (max-width:576px) {
+     .skill-container{
+          flex-direction: column;    
+     }
+     .resumi-container{
+          flex-direction: column;
+          justify-content: flex-start;
+     }
+     .Education{
+          width: 30%;
+          text-align: center;
+          padding: 10px;
+          margin-left: 10px;
+     }
+     .dbuton .primary-btn{
+          margin-left: 8%;
+     }
+    
+}
