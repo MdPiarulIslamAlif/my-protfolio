@@ -297,9 +297,40 @@ form .primary-btn{
      display: none;
 }
 @media screen and (max-width:576px) {
-     .skill-container{
+     .skill-container, .banner-container, nav{
           flex-direction: column;    
      }
+     nav >ul{
+          flex-direction: column;
+          gap: 5px;
+     }
+     nav{
+          margin: 0px 80px;
+          
+     }
+     header{
+          height: auto;
+          background-image: none;
+     }
+     .banner-container{
+          gap: 0px;
+          padding-left: 80px;
+     }
+     .banner-info .primary-discpription{
+          margin-bottom: 10px;
+     }
+     .banner-info .primary-btn{
+          margin-bottom: 10px;
+     }
+     .Portfolio-img{
+          width: 100%;
+          height: 100%;
+     }
+
+     ul li .primary-btn{
+          margin-left: 0;
+     }
+
      .resumi-container{
           flex-direction: column;
           justify-content: flex-start;
@@ -347,11 +378,6 @@ form .primary-btn{
      .what-i-do .primary-discpription{
           margin: 0;
      }
-     
-     .about .primary-title{
-          
-          
-     }
      .dbuton .primary-btn{
           margin-left: 30%;
      }
@@ -362,5 +388,5 @@ form .primary-btn{
      textarea, input[type="name"], input[type="email"]{
           width: 335px;
      }
-    
 }
+/* complete phone responsive */
